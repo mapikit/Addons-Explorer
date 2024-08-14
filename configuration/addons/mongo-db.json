@@ -1,0 +1,9 @@
+{
+  "identifier": "main-db",
+  "source": "@meta-system/mongodb-db-protocol",
+  "configuration": {
+    "dbConnectionString": "mongodb://127.0.0.1:27017",
+    "databaseName": "addons-explorer"
+  },
+  "collectStrategy": "npm"
+}

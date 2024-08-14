@@ -1,0 +1,10 @@
+{
+  "identifier": "addon",
+  "name": "addon",
+  "format": {
+    "name": { "type": "string", "required": true },
+    "description": { "type": "string", "required": true },
+    "keywords": { "type": "array", "required": true, "subtype": "string" },
+    "category": { "type": "string", "required": true }
+  }
+}

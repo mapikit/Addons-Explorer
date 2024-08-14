@@ -1,0 +1,7 @@
+{
+  "identifier": "category",
+  "name": "category",
+  "format": {
+    "title": { "type": "string", "required": true }
+  }
+}

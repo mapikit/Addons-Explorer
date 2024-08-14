@@ -1,0 +1,8 @@
+{
+  "identifier": "author",
+  "name": "addon author",
+  "format": {
+    "name": { "type": "string", "required": true },
+    "email": { "type": "string", "required": true }
+  }
+}

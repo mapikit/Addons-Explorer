@@ -1,0 +1,15 @@
+{
+  "name": "@meta-system/addons-explorer",
+  "version": "1.0.0",
+  "description": "An API and a Frontend to store and browse Meta-System compatible Addons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "service": "npx meta-system run ./configuration/root.json"
+  },
+  "author": "mapikit",
+  "license": "ISC",
+  "dependencies": {
+    "meta-system": "^0.4.11"
+  }
+}

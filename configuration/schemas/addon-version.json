@@ -1,0 +1,14 @@
+{
+  "identifier": "addon-version",
+  "name": "addon-version",
+  "format": {
+    "minimumMsysVersion": { "type": "string", "required": true },
+    "maximumMsysVersion": { "type": "string", "required": false },
+    "version": { "type": "string", "required": true },
+    "parameters": { "type": "cloudedObject", "required": true },
+    "permissions": { "type": "array", "required": true, "subtype": {
+      "entity": { "type": "enum", "required": true, "subtype": ["schemas", "businessOperations", "envs", "addons", "schemaFunctions", "bopFunctions", "addonFunctions"] },
+      "permission": { "type": "string", "required": true }
+    }}
+  }
+}

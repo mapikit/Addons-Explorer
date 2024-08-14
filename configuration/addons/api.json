@@ -1,0 +1,22 @@
+{
+  "identifier": "api",
+  "configuration": {
+    "port": 8080,
+    "host": "localhost",
+    "routes": [
+      {
+        "route": "/test",
+        "businessOperation": "test",
+        "method": "GET",
+        "inputMapConfiguration": [],
+        "resultMapConfiguration": {
+          "statusCode": 200,
+          "headers": [],
+          "body": {}
+        }
+      }
+    ]
+  },
+  "source": "http-meta-protocol",
+  "collectStrategy": "npm"
+}

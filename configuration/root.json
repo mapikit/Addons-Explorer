@@ -1,0 +1,8 @@
+{
+  "name": "addons-explorer",
+  "version": "0.0.1",
+  "schemas": "./schemas/*",
+  "businessOperations": [],
+  "addons": "./addons/*",
+  "envs": []
+}

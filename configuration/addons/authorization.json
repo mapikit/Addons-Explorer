@@ -1,0 +1,14 @@
+{
+  "identifier": "auth",
+  "configuration": {
+    "authorizationEntities": [
+      {
+        "schemaIdentifier": "author",
+        "passwordProperty": "password",
+        "loginProperty": "login"
+      }
+    ]
+  },
+  "source": "../../meta-authorize",
+  "collectStrategy": "file"
+}
